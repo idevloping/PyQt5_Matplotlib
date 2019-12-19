@@ -13,7 +13,7 @@ from mpl_toolkits.mplot3d import axis3d ,axes3d
 import matplotlib.pyplot as plt
 
 scriptDir = dirname(realpath(__file__))
-FROM_MAIN, _ = loadUiType(join(dirname(__file__), "icons/mainwindow.ui"))
+FROM_MAIN, _ = loadUiType(join(dirname(__file__), "mainwindow.ui"))
 
 
 class Main(QMainWindow, FROM_MAIN):
